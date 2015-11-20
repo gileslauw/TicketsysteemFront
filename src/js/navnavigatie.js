@@ -1,10 +1,46 @@
 /**
- * Created by lucas on 19/11/2015.
+ * Created by giles on 19/11/2015.
  */
 
-$(document).ready(function(){
+$(function(){
+    var activateHamburger = function(event) {
 
-    $('#nav-icon').click(function(){
-        $(this).toggleClass('open');
+
+
+    };
+    $('.hamburger').click(function() {
+
+        var el = $(this);
+        if (el.hasClass('active')){
+            el.addClass('active-end');
+            el.one('transitionend', function(){
+                el.removeClass('active active-end')
+            });
+            $('html, body').animate({
+                left: "0px"
+            }, 200);
+
+
+            $('.menu').animate({
+                left: "-285px"
+            }, 200);
+
+        } else {
+            el.addClass('active');
+            $('html, body').animate({
+                left: "285px"
+            }, 200);
+
+            $('.menu').animate({
+                left: "0px"
+            }, 200);
+        }
+
+
+
     });
+
+
+
+
 });
