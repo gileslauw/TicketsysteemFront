@@ -4,30 +4,44 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="less/style.css"/>
     <link rel="stylesheet" type="text/css" href="less/navicoon.css"/>
+    <link rel="stylesheet" type="text/css" href="../lib/semantic-ui/semantic.min.css">
     <script src="../lib/jquery/jquery-2.1.4.min.js"></script>
+    <script src="../lib/semantic-ui/semantic.min.js"></script>
+
     <title></title>
 </head>
 <body>
  <header>
-    <div id="bovenbar">
-        <div class="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <img id="logo" src="images/logo.png">
-    </div>
+     <div class="ui grid" id="bovenbar">
+            <div class="column three wide computer three wide tablet two wide mobile">
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="column ten wide computer ten wide tablet ten wide mobile intmidden">
+                <img id="logo" src="images/logo.png">
+            </div>
+            <div class="column three wide computer three wide tablet four wide mobile">
+                <ul class="menuright">
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+            </div>
+     </div>
+
      <div class="menu">
-
-
          <!-- Menu -->
          <ul>
-             <li><a href="#">About</a></li>
-             <li><a href="#">Blog</a></li>
-             <li><a href="#">Help</a></li>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Werking</a></li>
+             <li><a href="#">Tickets</a></li>
              <li><a href="#">Contact</a></li>
          </ul>
+
      </div>
+
  </header>
  <section id="wrapper">
 

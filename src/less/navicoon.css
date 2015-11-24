@@ -24,15 +24,15 @@
     height: 30px;
     padding: 3px;
     position: fixed;
-    left: 20px;
-    top: 20px;
+    left: 30px;
+    top: 13px;
 }
 .hamburger > div {
     background: #f89406;
     height: 4px;
     margin-bottom: 4px;
     float: left;
-    width: 100%;
+    width: 100%
 }
 .hamburger > div:nth-child(1), .hamburger > div:nth-child(3) {
     float: right;
