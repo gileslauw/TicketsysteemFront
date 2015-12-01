@@ -17,7 +17,7 @@ $(function(){
             }, 200);
 
 
-            $('.menu').animate({
+            $('.zijmenu').animate({
                 left: "-285px"
             }, 200);
 
@@ -27,7 +27,7 @@ $(function(){
                 left: "285px"
             }, 200);
 
-            $('.menu').animate({
+            $('.zijmenu').animate({
                 left: "0px"
             }, 200);
         }
