@@ -1,7 +1,3 @@
-/**
- * Created by giles on 19/11/2015.
- */
-
 $(function(){
     var activateHamburger = function(event) {
 
