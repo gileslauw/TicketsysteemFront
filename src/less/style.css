@@ -113,9 +113,6 @@ th {
   text-align: left;
   font-weight: bold;
 }
-td:last-child {
-  font-size: 16px;
-}
 td:first-child {
   width: 50%;
 }
@@ -123,7 +120,13 @@ td:nth-child(2) {
   width: 15%;
 }
 td:nth-child(3) {
-  width: 8%;
+  width: 5%;
+}
+td:nth-child(4) {
+  width: 5%;
+}
+td:nth-child(6) {
+  width: 5%;
 }
 th,
 td {
@@ -148,4 +151,8 @@ th:first-child {
 }
 tr:last-child td {
   border-bottom: 0;
+}
+td:last-child {
+  font-size: 18px;
+  text-align: center;
 }
