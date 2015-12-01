@@ -13,15 +13,16 @@ header {
   background-repeat: no-repeat;
 }
 #bovenbar {
+  width: 100%;
   height: 60px;
   background-color: rgba(255, 255, 255, 0.4);
 }
 #logo {
   width: 160px;
-  padding-top: 8px;
-}
-.intmidden {
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  display: block;
 }
 #wrapper {
   background-color: #f89406;
@@ -60,18 +61,7 @@ header {
   text-decoration: none;
   text-transform: uppercase;
 }
-.menu a:hover {
-  color: #f89406;
-}
-.menuright {
-  list-style: none;
-}
-.menuright li {
-  font-family: 'Open Sans', sans-serif;
-  display: inline;
-}
-.menuright a {
-  color: #f89406;
-  text-decoration: none;
-  font-size: 13px;
+.grotewittetitel {
+  color: white;
+  font-size: larger;
 }
